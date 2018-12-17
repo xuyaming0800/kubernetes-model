@@ -26,7 +26,7 @@
   </parent>
 
   <groupId>io.fabric8</groupId>
-  <version>3.0.3-hpa-v2</version>
+  <version>3.0.3-extension</version>
 
   <artifactId>kubernetes-model-generator</artifactId>
   <packaging>pom</packaging>
@@ -69,14 +69,14 @@
 
   <distributionManagement>
     <repository>
-      <id>oss-sonatype-staging</id>
+      <id>release</id>
       <name>Sonatype Staging Repository</name>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+      <url>http://10.69.58.191:8081/repository/maven-releases</url>
     </repository>
     <snapshotRepository>
-      <id>oss-sonatype-snapshots</id>
+      <id>snapshot</id>
       <name>OSS Sonatype Nexus Snapshots</name>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      <url>http://10.69.58.191:8081/repository/maven-snapshots</url>
     </snapshotRepository>
   </distributionManagement>
 
